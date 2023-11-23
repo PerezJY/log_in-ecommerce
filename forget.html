@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="log-in">
+      <div class="div">
+        
+        <img src="image/logo1.png" width="150px">
+        <div class="text-wrapper">Forgot Password</div>
+        <p class="p">Enter your email for the verification proccess,we will send 4 digits code to your email.</p>
+		
+        <div class="overlap-group">
+          <div class="text-wrapper-2">Continue</div>
+          <div class="rectangle"></div>
+          <div class="text-wrapper-3">Continue</div>
+        </div>
+        <p class="if-you-didn-t">
+			<span class="span">If you didn't receive the code! </span>
+		
+			<button class="resend-button" onclick="redirectToResend()">Resend</button>
+    </div>
+			<script>
+				function redirectToResend() {
+					window.location.href = "resend.html";
+				}
+			</script>
+            
+
+		
+        </p>
+        <img class="log1" src="/image/logo1.png" />
+        <div class="input-large">
+          <div class="form-title-default"><div class="form-title">E-mail</div></div>
+          <div class="input"><div class="container"></div></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
